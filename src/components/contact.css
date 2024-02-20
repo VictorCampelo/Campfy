@@ -1,0 +1,88 @@
+.contact-contact {
+  gap: 24px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  padding-left: 40px 20px;
+  padding-right: 40px 20px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.contact-depth5-frame1 {
+  gap: 16px;
+  width: 100%;
+  height: 24px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.contact-depth6-frame0 {
+  width: auto;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.contact-depth7-frame0 {
+  width: 24px;
+  height: 24px;
+}
+.contact-depth6-frame1 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contact-depth7-frame01 {
+  width: 24px;
+  height: 24px;
+}
+.contact-depth6-frame2 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.contact-depth7-frame02 {
+  width: 24px;
+  height: 24px;
+}
+.contact-depth5-frame2 {
+  width: 100%;
+  height: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.contact-depth6-frame01 {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-text {
+  color: rgb(186, 168, 155);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "Be Vietnam Pro";
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
