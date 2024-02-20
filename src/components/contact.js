@@ -40,23 +40,23 @@ const Contact = (props) => {
 }
 
 Contact.defaultProps = {
+  depth7Frame0Src1: '/external/depth7frame03346-mi2n.svg',
+  depth7Frame0Alt2: 'Depth7Frame03346',
+  depth7Frame0Alt1: 'Depth7Frame03346',
   depth7Frame0Src: '/external/depth7frame03346-je9d.svg',
   depth7Frame0Alt: 'Depth7Frame03346',
-  depth7Frame0Src1: '/external/depth7frame03346-mi2n.svg',
-  depth7Frame0Alt1: 'Depth7Frame03346',
-  depth7Frame0Src2: '/external/depth7frame03346-vpgl.svg',
-  depth7Frame0Alt2: 'Depth7Frame03346',
   text: '© 2023 Campfy',
+  depth7Frame0Src2: '/external/depth7frame03346-vpgl.svg',
 }
 
 Contact.propTypes = {
+  depth7Frame0Src1: PropTypes.string,
+  depth7Frame0Alt2: PropTypes.string,
+  depth7Frame0Alt1: PropTypes.string,
   depth7Frame0Src: PropTypes.string,
   depth7Frame0Alt: PropTypes.string,
-  depth7Frame0Src1: PropTypes.string,
-  depth7Frame0Alt1: PropTypes.string,
-  depth7Frame0Src2: PropTypes.string,
-  depth7Frame0Alt2: PropTypes.string,
   text: PropTypes.string,
+  depth7Frame0Src2: PropTypes.string,
 }
 
 export default Contact

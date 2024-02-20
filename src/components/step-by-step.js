@@ -78,30 +78,30 @@ const StepByStep = (props) => {
 }
 
 StepByStep.defaultProps = {
-  text: 'A step-by-step guide to build your project',
+  text6: 'Build',
+  text5: 'Map out your project with a roadmap, task, and deadlines',
+  text3: 'Braintorm and plan your project with a moodboard, notes, and more',
+  text8: 'Launch',
+  text4: 'Plan',
+  text9: 'Get your project off the ground with template or form scratch',
   text1:
     "Our templates and guides can helo you get started, or build from scratch. Here's what you can expect from your project development process on Campfy.",
+  text: 'A step-by-step guide to build your project',
   text2: 'Ideate',
-  text3: 'Braintorm and plan your project with a moodboard, notes, and more',
-  text4: 'Plan',
-  text5: 'Map out your project with a roadmap, task, and deadlines',
-  text6: 'Build',
   text7: 'Bring your project to live with no-code tools or custom code',
-  text8: 'Launch',
-  text9: 'Get your project off the ground with template or form scratch',
 }
 
 StepByStep.propTypes = {
-  text: PropTypes.string,
-  text1: PropTypes.string,
-  text2: PropTypes.string,
-  text3: PropTypes.string,
-  text4: PropTypes.string,
-  text5: PropTypes.string,
   text6: PropTypes.string,
-  text7: PropTypes.string,
+  text5: PropTypes.string,
+  text3: PropTypes.string,
   text8: PropTypes.string,
+  text4: PropTypes.string,
   text9: PropTypes.string,
+  text1: PropTypes.string,
+  text: PropTypes.string,
+  text2: PropTypes.string,
+  text7: PropTypes.string,
 }
 
 export default StepByStep

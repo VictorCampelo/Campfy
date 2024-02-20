@@ -111,21 +111,21 @@ const LikeToWork = (props) => {
 }
 
 LikeToWork.defaultProps = {
-  depth9Frame0Src: '/external/depth9frame03345-vt6p.svg',
-  depth9Frame0Alt: 'Depth9Frame03345',
-  depth9Frame0Src1: '/external/depth9frame03345-fxsf.svg',
-  depth9Frame0Alt1: 'Depth9Frame03345',
   depth9Frame0Src2: '/external/depth9frame03345-vag.svg',
+  depth9Frame0Src1: '/external/depth9frame03345-fxsf.svg',
+  depth9Frame0Alt: 'Depth9Frame03345',
   depth9Frame0Alt2: 'Depth9Frame03345',
+  depth9Frame0Src: '/external/depth9frame03345-vt6p.svg',
+  depth9Frame0Alt1: 'Depth9Frame03345',
 }
 
 LikeToWork.propTypes = {
-  depth9Frame0Src: PropTypes.string,
-  depth9Frame0Alt: PropTypes.string,
-  depth9Frame0Src1: PropTypes.string,
-  depth9Frame0Alt1: PropTypes.string,
   depth9Frame0Src2: PropTypes.string,
+  depth9Frame0Src1: PropTypes.string,
+  depth9Frame0Alt: PropTypes.string,
   depth9Frame0Alt2: PropTypes.string,
+  depth9Frame0Src: PropTypes.string,
+  depth9Frame0Alt1: PropTypes.string,
 }
 
 export default LikeToWork

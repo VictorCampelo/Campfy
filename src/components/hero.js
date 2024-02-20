@@ -64,15 +64,15 @@ const Hero = (props) => {
 }
 
 Hero.defaultProps = {
-  depth12Frame0Src: '/external/depth12frame03345-vibs.svg',
   depth12Frame0Alt: 'Depth12Frame03345',
   text: 'We build the web and mobile apps you need, without writing a single line of code. No matter the industry or scale, we make sure your product is built with the highest standard.',
+  depth12Frame0Src: '/external/depth12frame03345-vibs.svg',
 }
 
 Hero.propTypes = {
-  depth12Frame0Src: PropTypes.string,
   depth12Frame0Alt: PropTypes.string,
   text: PropTypes.string,
+  depth12Frame0Src: PropTypes.string,
 }
 
 export default Hero
